@@ -81,3 +81,31 @@ p{
     max-width: 900px;
     left: 233px;
 }
+#experience{
+    color:#dadff7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: brightness(75%);
+    position: absolute;
+    top: 425px;
+    left: 50px;
+}
+#aboutVirtualExperience{
+    position: absolute;
+    top: 425px;
+    max-width: 900px;
+    left: 233px;
+}
+#certifications{
+    color:#dadff7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: brightness(75%);
+    position: absolute;
+    top: 520px;
+    left: 50px;
+}
+#aboutCertifications{
+    position: absolute;
+    top: 520px;
+    max-width: 900px;
+    left: 233px;
+}
