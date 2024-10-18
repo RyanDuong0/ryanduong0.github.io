@@ -1,3 +1,6 @@
+html, body{
+    max-width: 92%;
+}
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #dadff7;
@@ -71,4 +74,9 @@ p{
     position: absolute;
     top: 250px;
     left: 50px;
+}
+#aboutParagraph{
+    position: absolute;
+    top: 250px;
+    max-width: 900px;
 }
