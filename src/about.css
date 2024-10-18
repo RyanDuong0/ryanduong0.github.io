@@ -100,12 +100,12 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     filter: brightness(75%);
     position: absolute;
-    top: 520px;
+    top: 555px;
     left: 50px;
 }
 #aboutCertifications{
     position: absolute;
-    top: 520px;
+    top: 555px;
     max-width: 900px;
     left: 233px;
 }
