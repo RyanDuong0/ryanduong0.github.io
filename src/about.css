@@ -24,7 +24,7 @@ h1{
 #header{
     position: relative;
     top: 50px;
-    left: 225px;
+    left: 220px;
 }
 body{
     background-color: #000022;
@@ -79,4 +79,5 @@ p{
     position: absolute;
     top: 250px;
     max-width: 900px;
+    left: 233px;
 }
