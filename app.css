@@ -3,16 +3,18 @@ h1{
     color: #dadff7;
 }
 #about{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
+    font-family: Verdana;
+    font-weight: 400;
+    filter: brightness(1);
+    position: absolute;
     color: #dadff7;
-    top: 75px;
+    top: 275px;
     left: 50px;
 }
 #header{
     position: relative;
     top: 50px;
-    left: 150px;
+    left: 225px;
 }
 body{
     background-color: #000022;
@@ -22,10 +24,26 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     top: 45px;
-    left: 150px;
+    left: 225px;
 }
 #linkedInLogo{
-    position: relative;
-    left: 450px;
-    top: 5px;
+    position: absolute;
+    left: 540px;
+    top: 121px;
+}
+#profilePicture{
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+}
+#zoomLinkedIn{
+    width:30px; /*width of your image*/
+   height:30px; /*height of your image*/
+   content:url("linkedin.png");
+   margin:0; /* If you want no margin */
+   padding:0;
+   position: absolute;
+    left: 535px;
+    top: 121px;
 }
