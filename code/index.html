@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="app.css"/>
+    <title>Ryan Duong</title>
+    <style>
+    #zoomLinkedIn{
+        padding: 0;
+        transition: transform 0.2s;
+        margin: 0 auto;
+    }
+    #zoomLinkedIn:hover {
+        transform: scale(1.2);
+    }
+    </style>
+</head>
+<html>
+    <body>  
+        <h1 id="header">Ryan Duong</h1>
+        <p>Aspiring Software Engineer from UK</p>
+        <img src = "profilepicture.jpg" alt = "Profile Picture" width = 160 height = "150" id = "profilePicture">
+        <!--
+        <a href="https://www.linkedin.com/in/ryan-duong-97b960328/" class="button">
+            <img src = "linkedin.png" alt = "LinkedIn" width = "30" height = "30" id = "linkedInLogo">
+        </a>
+        -->
+        <a href = "https://www.linkedin.com/in/ryan-duong-97b960328/" class="button">
+            <div id="zoomLinkedIn" onclick="">&nbsp;</div>
+        </a>
+        <h3 id="about">About Me</h3>
+    </body>
+    <script src = "app.js"></script>
+</html>
