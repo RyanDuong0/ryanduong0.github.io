@@ -7,9 +7,18 @@ h1{
     font-weight: 400;
     filter: brightness(1);
     position: absolute;
-    color: #dadff7;
+    color: #87888C;
     top: 175px;
     left: 233px;
+}
+#home{
+    font-family: Verdana;
+    font-weight: 400;
+    filter: brightness(1);
+    position: absolute;
+    color: #dadff7;
+    top: 175px;
+    left: 320px;
 }
 #header{
     position: relative;
@@ -40,7 +49,7 @@ p{
 #zoomLinkedIn{
     width:30px; /*width of your image*/
    height:30px; /*height of your image*/
-   content:url("img/linkedin.png");
+   content:url("/img/linkedin.png");
    margin:0; /* If you want no margin */
    padding:0;
    position: absolute;

@@ -16,6 +16,15 @@ h1{
     top: 50px;
     left: 225px;
 }
+#home{
+    font-family: Verdana;
+    font-weight: 400;
+    filter: brightness(1);
+    position: absolute;
+    color: #87888C;
+    top: 175px;
+    left: 320px;
+}
 body{
     background-color: #000022;
 }
