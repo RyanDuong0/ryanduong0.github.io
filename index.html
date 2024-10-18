@@ -11,25 +11,31 @@
     #zoomLinkedIn:hover {
         transform: scale(1.2);
     }
+    #zoomGitHub{
+        padding: 0;
+        transition: transform 0.2s;
+        margin: 0 auto;
+    }
+    #zoomGitHub:hover {
+        transform: scale(1.2);
+    }
     </style>
 </head>
 <html>
     <body>  
         <h1 id="header">Ryan Duong</h1>
-        <p>Aspiring Software Engineer from UK</p>
+        <p id = "openingStatement">Aspiring Software Engineer from UK</p>
         <img src = "img/profilepicture.jpg" alt = "Profile Picture" width = 160 height = "150" id = "profilePicture">
-        <!--
-        <a href="https://www.linkedin.com/in/ryan-duong-97b960328/" class="button">
-            <img src = "linkedin.png" alt = "LinkedIn" width = "30" height = "30" id = "linkedInLogo">
-        </a>
-        -->
         <a href = "https://www.linkedin.com/in/ryan-duong-97b960328/" class="button">
             <div id="zoomLinkedIn">&nbsp;</div>
         </a>
-        <a href="src\about.html">
+        <a href = "https://github.com/RyanDuong0" class = "button">
+            <div id = "zoomGitHub">&nbsp;</div>
+        </a>
+        <a href="src/about.html">
             <h4 id="about">About</h4>
         </a>
-        <a href = "src\index.html">
+        <a href = "index.html">
             <h4 id = "home">Home</h4>
         </a>
     </body>

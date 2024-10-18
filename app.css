@@ -19,7 +19,6 @@ h1{
 #home{
     font-family: Verdana;
     font-weight: 400;
-    filter: brightness(1);
     position: absolute;
     color: #87888C;
     top: 175px;
@@ -28,7 +27,7 @@ h1{
 body{
     background-color: #000022;
 }
-p{
+#openingStatement{
     color: #dadff7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
@@ -55,4 +54,14 @@ p{
    position: absolute;
     left: 535px;
     top: 121px;
+}
+#zoomGitHub{
+    width:33px; /*width of your image*/
+   height:33px; /*height of your image*/
+   content:url("img/github.png");
+   margin:0; /* If you want no margin */
+   padding:0;
+   position: absolute;
+    left: 575px;
+    top: 120px;
 }
