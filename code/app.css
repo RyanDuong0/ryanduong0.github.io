@@ -40,7 +40,7 @@ p{
 #zoomLinkedIn{
     width:30px; /*width of your image*/
    height:30px; /*height of your image*/
-   content:url("linkedin.png");
+   content:url("img/linkedin.png");
    margin:0; /* If you want no margin */
    padding:0;
    position: absolute;
