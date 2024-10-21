@@ -109,3 +109,11 @@ p{
     max-width: 900px;
     left: 233px;
 }
+#projects{
+    color:#dadff7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: brightness(75%);
+    position: absolute;
+    top: 770px;
+    left: 50px;
+}
