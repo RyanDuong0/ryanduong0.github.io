@@ -123,3 +123,32 @@ p{
     top: 850px;
     left: 50px;
 }
+/* Base styles for both LinkedIn and GitHub icons */
+.icon {
+    width: 30px;  /* Default width */
+    height: 30px; /* Default height */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: transform 0.2s;
+}
+
+/* LinkedIn icon with specific position */
+.icon.linkedin {
+    content: url("/img/linkedin.png");
+    left: 535px;
+    top: 121px;
+}
+
+/* GitHub icon with specific position */
+.icon.github {
+    content: url("/img/github.png");
+    left: 575px;
+    top: 120px;
+}
+
+/* Hover effect for scaling */
+.icon:hover {
+    transform: scale(1.2);
+}
+
