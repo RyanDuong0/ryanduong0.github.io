@@ -23,7 +23,7 @@ h1{
     font-family: Verdana;
     font-weight: 400;
     position: absolute;
-    color: #87888C;
+    color: #dadff7;
     top: 175px;
     left: 320px;
 }
@@ -31,7 +31,7 @@ h1{
     font-family: Verdana;
     font-weight: 400;
     position: absolute;
-    color:#dadff7;
+    color: #87888C;
     top: 175px;
     left: 407px;
 }
@@ -68,14 +68,14 @@ body{
 
 /* LinkedIn icon with specific position */
 .icon.linkedin {
-    content: url("img/linkedin.png");
+    content: url("/img/linkedin.png");
     left: 535px;
     top: 121px;
 }
 
 /* GitHub icon with specific position */
 .icon.github {
-    content: url("img/github.png");
+    content: url("/img/github.png");
     left: 575px;
     top: 120px;
 }

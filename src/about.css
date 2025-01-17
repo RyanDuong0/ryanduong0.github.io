@@ -116,12 +116,12 @@ p{
     left: 233px;
 }
 #projects{
-    color:#dadff7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    filter: brightness(75%);
+    font-family: Verdana;
+    font-weight: 400;
     position: absolute;
-    top: 850px;
-    left: 50px;
+    color:#dadff7;
+    top:175px;
+    left:407px;
 }
 /* Base styles for both LinkedIn and GitHub icons */
 .icon {
