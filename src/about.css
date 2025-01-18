@@ -173,58 +173,17 @@ p{
     width: 50%;
     left: 25%;
 }
+/* Responsive styles */
 @media (max-width: 768px) {
-    #header {
-        font-size: 1.5em;
-        margin: 10px 0;
-    }
-
-    #openingStatement {
-        font-size: 1em;
-        margin: 10px 0;
-    }
-
-    #profilePicture {
-        width: 120px;
-        height: 120px;
-    }
-
     .buttonNew {
         padding: 8px 16px;
         font-size: 0.9em;
     }
-
-    #aboutStudentAmbassador, #aboutVirtualExperience, #certifications, #aboutCertifications {
-        font-size: 0.9em;
-        margin: 10px 0;
-        padding: 0 10px;
-    }
 }
 
 @media (max-width: 480px) {
-    #header {
-        font-size: 1.2em;
-        margin: 5px 0;
-    }
-
-    #openingStatement {
-        font-size: 0.9em;
-        margin: 5px 0;
-    }
-
-    #profilePicture {
-        width: 100px;
-        height: 100px;
-    }
-
     .buttonNew {
         padding: 6px 12px;
         font-size: 0.8em;
-    }
-
-    #aboutStudentAmbassador, #aboutVirtualExperience, #certifications, #aboutCertifications {
-        font-size: 0.8em;
-        margin: 5px 0;
-        padding: 0 5px;
     }
 }
