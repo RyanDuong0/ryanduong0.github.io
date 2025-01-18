@@ -173,29 +173,3 @@ p{
     width: 50%;
     left: 25%;
 }
-@media(max-width: 1200px){
-    #openingStatement{
-        left: 150px;
-    }
-    .buttonNew{
-        padding: 30px 35px;
-    }
-}
-@media(max-width: 768px){
-    #openingStatement{
-        left: 100px;
-        top: 30px;
-    }
-    .buttonNew{
-        padding: 20px 25px;
-    }
-    @media(max-width: 480px){
-        #openingStatement{
-            left: 50px;
-            top: 20px;
-        }
-        .buttonNew{
-            padding: 10px 15px;
-        }
-    }
-}
