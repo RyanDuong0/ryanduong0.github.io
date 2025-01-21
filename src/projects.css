@@ -71,7 +71,6 @@ body{
     top: 126px;
 }
 
-/* Hover effect for scaling */
 .icon:hover {
     transform: scale(1.2);
 }
