@@ -86,7 +86,7 @@ p{
     position: absolute;
     top: 250px;
     max-width: 900px;
-    left: 233px;
+    left: 225px;
 }
 #experience{
     color:#dadff7;
@@ -100,13 +100,13 @@ p{
     position: absolute;
     top: 500px;
     max-width: 900px;
-    left: 233px;
+    left: 225px;
 }
 #aboutStudentAmbassador{
     position: absolute;
     top: 425px;
     max-width: 900px;
-    left: 233px;    
+    left: 225px;    
 }
 #certifications{
     color:#dadff7;
@@ -120,7 +120,7 @@ p{
     position: absolute;
     top: 631px;
     max-width: 900px;
-    left: 233px;
+    left: 225px;
 }
 
 /* Base styles for both LinkedIn and GitHub icons */
