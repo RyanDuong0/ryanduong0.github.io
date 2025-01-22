@@ -170,3 +170,22 @@ body{
     left: 217px;
     top: 46px;
 }
+#nclInAction{
+    color: #dadff7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 182px;
+    top: 353px;
+}
+#aboutNCLInAction{
+    color: #dadff7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    filter: brightness(75%);
+    position: relative;
+    left: 217px;
+    top: 82px;
+}
+.nclInAction:hover:before{
+    width: 50%;
+    left: 25%;
+}
