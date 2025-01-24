@@ -108,7 +108,7 @@ body{
     position: absolute;
     width: 0;
     height: 2px;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     background-color: #dadff7;
     transition: width 0.2s ease, left 0.2s ease; 
