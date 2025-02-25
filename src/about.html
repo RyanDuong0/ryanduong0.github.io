@@ -1,64 +1,115 @@
 <!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" href="about.css"/>
-    <meta name="description" content="About Ryan Duong, experience and certifications"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+    <meta name="description" content="Home page for Ryan Duong's activities"/>
     <link rel="canonical" href="https://ryanduong0.github.io/about.html"/>
     <meta property="og:url" content="https://ryanduong0.github.io/index.html"/>
     <title>Ryan Duong</title>
-</head>
-<html>
-    <body>  
-        <h1 id="header">Ryan Duong</h1>
-        <p id="openingStatement">Aspiring Software Engineer from UK</p>
-        <img src = "/img/profilepicture.jpg" alt = "Profile Picture" width = 160 height = "150" id = "profilePicture">
-        <a href = "https://www.linkedin.com/in/ryan-duong-97b960328/" class="button">
-            <div class="icon linkedin">&nbsp;</div>
-        </a>
-        <a href = "https://github.com/RyanDuong0" class = "button">
-            <div class="icon github">&nbsp;</div>   
-        </a>
-        <a href="about.html">
-            <h4 id="about" class="buttonNew">About</h4>
-        </a>
-        <a href="/index.html">
-            <h4 id="home" class="buttonNew">Home</h4>
-        </a>
-        <a href="projects.html">
-            <h4 id="projects" class="buttonNew">Projects</h4>
-        </a>
-        <p id = "aboutMe">About Me</p>
-        <p id = "aboutParagraph">I am currently a student at Newcastle University 
-            working towards a BSc in Computer Science and I am actively seeking 
-            internships and work experience to help refine my skills and to gain new skills 
-            that are vital to Software Engineering. During my four years of experience, I have 
-            picked up languages such as C#, Python, Java and SQL and have even completed a project 
-            using C# and SQL recently, which deepened my understanding of software development methodologies.
-        </p>
-        <p id = "experience">Experience</p>
-        <p id = "aboutStudentAmbassador">SAgE Student Ambassador
-            <br>Current student ambassador for the School of Computing.
-        </br>
-        </p>
-        <p id = "aboutVirtualExperience">Virtual Work Experience Day
-            Pathway CTM.
-            <br>Tech, Digital and IT virtual work experience day where I engaged with companies including: Sky, Sage, GCHQ and Microsoft.
-            </br>
-        </p>
-        <p id = "certifications">Certifications</p>
-        <p id = "aboutCertifications">
-            AIG - Shields Up: Cybersecurity Job Simulation<br>
-            <br>
-                •&nbsp;Completed a cybersecurity threat analysis simulation for the Cyber Defense
-                Unit, staying updated on CISA publications.<br>
-                • Researched and understood reported vulnerabilities, showcasing analytical
-                skills in cybersecurity.<br>
-                • Drafted a clear and concise email to guide teams on vulnerability
-                remediation.<br>
-                • Utilized Python skills to write a script for ethical hacking, avoiding ransom
-                payments by bruteforcing decryption keys.<br>
-            </br>
-        </p>
-    </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <style>
+    body {
+    background-color: #000022; /* You can change this color to any desired background color */
+    }
+    .custom-navbar {
+    background-color: white; /* Same as body background color */
+    }
+    .welcome{
+    color: white;
+    }
+    </style>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ryan Duong</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Links
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/ryan-duong-97b960328/">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/RyanDuong0">GitHub</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row align-items-center">
+        <!-- Profile Picture (Left Side) -->
+        <div class="col-md-3 m1-0">
+          <img src="/img/profilepicture.jpg" class="img-fluid rounded-circle" style="width: 175px;" alt="Profile">
+        </div>
+
+        <!-- Text (Right Side) -->
+        <div class="col-md-9 text-white">
+          <h1 class="display-1" style="font-size: 2.5rem;">Welcome to Ryan Duong's Website</h1>
+          <h3 class="display-6" style="font-size: 1.5rem;">Aspiring Software Engineer from the UK</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row align-items-start"> 
+        <!-- "About Me" (Left Side) -->
+        <div class="col-md-3">
+          <h1 class="text-start display-6" style="color: #dadff7; font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">About Me</h1>
+        </div>
+        <div class="col-md-7">
+          <p style="color:#dadff7; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">I am currently a student at Newcastle University working towards a BSc in Computer Science and I am actively seeking internships and work experience to help refine my skills and to gain new skills that are vital to Software Engineering. During my four years of experience, I have picked up languages such as C#, Python, Java and SQL and have even completed a project using C# and SQL recently, which deepened my understanding of software development methodologies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5"> <!-- mt means margin top, so margin between "Experience" and "Latest Post" -->
+      <div class="row align-items-start">
+        <!-- "Experience" (Left Side) -->
+        <div class="col-md-3">
+          <h1 class="text-start display-6" style="color: #dadff7; font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Experience</h1>
+        </div>
+        <div class="col-md-7">
+          <p style="color:#dadff7; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">SAgE Student Ambassador <br> Current student ambassador for the School of Computing.</p>
+          <p style="color:#dadff7; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Virtual Work Experience Day Pathway CTM. <br> Tech, Digital and IT virtual work experience day where I engaged with companies including: Sky, Sage, GCHQ and Microsoft.<p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row align-items-start"> 
+        <!-- "Certifications" (Left Side) -->
+        <div class="col-md-3">
+          <h1 class="text-start display-6" style="color: #dadff7; font-size: 1.3rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Certifications</h1>
+        </div>
+        <div class="col-md-7"> 
+          <p style="color:#dadff7; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">AIG - Shields Up: Cybersecurity Job Simulation</p>
+          <ul class="mb-0" style="color:#dadff7;">
+            <li>Completed a cybersecurity threat analysis simulation for the Cyber Defense Unit, staying updated on CISA publications.</li>
+            <li>Researched and understood reported vulnerabilities, showcasing analytical skills in cybersecurity.</li>
+            <li>Drafted a clear and concise email to guide teams on vulnerability remediation.</li>
+            <li>Utilized Python skills to write a script for ethical hacking, avoiding ransom payments by bruteforcing decryption keys.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
