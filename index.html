@@ -77,55 +77,11 @@
         
         <!-- Cards Section (Right Side) -->
         <div class="col-md-9">
-          <div class="row">
-            <!-- First Card -->
-            <div class="col-md-4 d-flex align-items-stretch mb-3"> <!-- align-items-stretch to ensure that no matter the text size, cards are the same size, mb-3 to margin bottom so cards have space below each other -->
-              <div class="card d-flex flex-column" style="width: 18rem; background-color: #1a1a2e; color: white;">
-                <img src="img/devpost_img.jpeg" class="card-img-top" alt="Sample Image">
-                <div class="card-body d-flex flex-column justify-content-between" style="flex-grow: 1;">
-                  <h5 class="card-title">Devpost Durhack 2024</h5>
-                  <p class="card-text">A Devpost project created for the Durhack hackathon in November 2024, centered around the theme of space exploration and innovation.</p>
-                  <a href="https://www.linkedin.com/posts/ryan-duong-97b960328_im-happy-to-share-this-durhack-2024-project-activity-7259915478054096896-5qYI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK5F28BwZ30UvRm9ztBbqi7s7EPRvi-r3o" class="btn btn-primary">See Post</a>
-                </div>
-              </div>
-            </div>
-            
-            <!-- Second Card -->
-            <div class="col-md-4 d-flex align-items-stretch mb-3">
-              <div class="card d-flex flex-column" style="width: 18rem; background-color: #1a1a2e; color: white;">
-                <img src="img/durhack_img.jpeg" class="card-img-top" alt="Sample Image" style="pointer-events:none;">
-                <div class="card-body d-flex flex-column justify-content-between" style="flex-grow: 1;">
-                  <h5 class="card-title">Durhack 2024</h5>
-                  <p class="card-text">Attended Durhack 2024, one of the largest hackathons in Europe, which brought together talented developers, designers, and innovators to collaborate on exciting projects. The event took place in November 2024.</p>
-                  <a href="https://www.linkedin.com/posts/ryan-duong-97b960328_day-1-of-durhack-down-one-more-to-go-me-activity-7258745585296404480-bHN_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK5F28BwZ30UvRm9ztBbqi7s7EPRvi-r3o" class="btn btn-primary">See Post</a>
-                </div>
-              </div>
-            </div>
-            <!-- Third Card (separate row) -->
-            <div class="col-md-4 d-flex align-items-stretch mb-3">
-              <div class="card d-flex flex-column" style="width: 18rem; background-color: #1a1a2e; color: white;">
-                <img src="img/ncl_in_action_img.jpeg" class="card-img-top" alt="Sample Image" style="height: 200px; object-fit:cover; object-position:bottom;">
-                <div class="card-body d-flex flex-column justify-content-between" style="flex-grow: 1;">
-                  <h5 class="card-title">NCL In Action</h5>
-                  <p class="card-text">NCL in Action 24/25 is a year-long program at Newcastle University exploring AI's impact on industries, careers, and global challenges through events and expert discussions. November 2024</p>
-                  <a href="https://www.linkedin.com/posts/ryan-duong-97b960328_day-1-of-durhack-down-one-more-to-go-me-activity-7258745585296404480-bHN_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK5F28BwZ30UvRm9ztBbqi7s7EPRvi-r3o" class="btn btn-primary">See Post</a>
-                </div>
-              </div>
-            </div>
-          </div> <!-- End of row -->
-          <div class="row">
-            <div class="col-md-4 d-flex align-items-stretch mb-3">
-              <div class="card d-flex flex-column" style="width: 18rem; background-color: #1a1a2e; color: white;">
-                <img src="img/bsides_ncl_img.jpeg" class="card-img-top" alt="Sample Image" style="height: 200px; object-fit:cover; object-position:top;">
-                <div class="card-body d-flex flex-column justify-content-between" style="flex-grow: 1;">
-                  <h5 class="card-title">BSides NCL</h5>
-                  <p class="card-text">BSides NCL is a free, one-day conference for the local information security community. It is a place to learn, share, and discuss the latest security trends. October 2024</p>
-                  <a href="https://www.linkedin.com/posts/ryan-duong-97b960328_today-i-had-the-opportunity-to-attend-an-activity-7248409430768107520-7Prd/?utm_source=share&utm_medium=member_desktop" class="btn btn-primary">See Post</a>
-                </div>
-              </div>
-            </div>
-          </div> 
+          <div class="row" id="postsContainer">
+            <!-- Generate posts using posts.js -->
+         </div> 
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="src/posts.js"></script>
   </body>
 </html>
